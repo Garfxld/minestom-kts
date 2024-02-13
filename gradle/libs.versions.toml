@@ -2,5 +2,5 @@
 shadow = "com.github.johnrengelman.shadow:8.1.1"
 
 [libraries]
-minestom = "dev.hollowcube:minestom-ce:9fc4137995"
-slf4j-simple = "org.slf4j:slf4j-simple:2.0.11"
+minestom = "net.minestom:minestom-snapshots:7320437640"
+logback = "ch.qos.logback:logback-classic:1.4.14"

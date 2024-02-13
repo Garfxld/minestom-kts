@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
     implementation(libs.minestom)
-    implementation(libs.slf4j.simple)
+    implementation(libs.logback)
 }
 
 application {
