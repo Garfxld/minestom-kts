@@ -5,10 +5,10 @@ A template using Java and Gradle with Kotlin DSL for creating a simple Minecraft
 the [shadow](https://github.com/johnrengelman/shadow) gradle plugin.
 
 ## Specification
- - Minestom `7320437640` (Minecraft 1.20.4)
+ - Minestom `461c56e749` (Minecraft 1.21)
  - shadow `8.8.1`
- - Java `17`
- - Gradle `8.4`
+ - Java `21`
+ - Gradle `8.5`
 
 ## License
 This project is licensed under the [CC0 1.0 Universal](LICENSE) license.

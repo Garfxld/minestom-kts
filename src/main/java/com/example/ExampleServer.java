@@ -4,6 +4,7 @@ import net.minestom.server.MinecraftServer;
 import net.minestom.server.coordinate.Pos;
 import net.minestom.server.event.player.AsyncPlayerConfigurationEvent;
 import net.minestom.server.extras.MojangAuth;
+import net.minestom.server.instance.LightingChunk;
 import net.minestom.server.instance.block.Block;
 
 public class ExampleServer {
@@ -13,6 +14,7 @@ public class ExampleServer {
 
         var instance = MinecraftServer.getInstanceManager()
                 .createInstanceContainer();
+        instance.setChunkSupplier(LightingChunk::new);
         instance.setBlock(Pos.ZERO, Block.STONE);
 
         MinecraftServer.getGlobalEventHandler()
